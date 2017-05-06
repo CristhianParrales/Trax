@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B10859991EBE1A28000C7A61 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10859981EBE1A28000C7A61 /* ImageViewController.swift */; };
+		B108599B1EBE6823000C7A61 /* EditWaypointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B108599A1EBE6823000C7A61 /* EditWaypointViewController.swift */; };
+		B10A130A1EAD545C009E99FA /* GPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A13091EAD545C009E99FA /* GPX.swift */; };
+		B10A130C1EAD58EF009E99FA /* MKGPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A130B1EAD58EF009E99FA /* MKGPX.swift */; };
 		B179F6571EA9A70200DE4E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B179F6561EA9A70200DE4E7E /* AppDelegate.swift */; };
-		B179F6591EA9A70200DE4E7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B179F6581EA9A70200DE4E7E /* ViewController.swift */; };
 		B179F65C1EA9A70200DE4E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B179F65A1EA9A70200DE4E7E /* Main.storyboard */; };
-		B179F65F1EA9A70200DE4E7E /* Trax.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B179F65D1EA9A70200DE4E7E /* Trax.xcdatamodeld */; };
 		B179F6611EA9A70200DE4E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B179F6601EA9A70200DE4E7E /* Assets.xcassets */; };
 		B179F6641EA9A70200DE4E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B179F6621EA9A70200DE4E7E /* LaunchScreen.storyboard */; };
-		B179F66F1EA9A70200DE4E7E /* TraxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B179F66E1EA9A70200DE4E7E /* TraxTests.swift */; };
+		B179F67B1EA9A8BC00DE4E7E /* GPXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B179F67A1EA9A8BC00DE4E7E /* GPXViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +29,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B10859981EBE1A28000C7A61 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		B108599A1EBE6823000C7A61 /* EditWaypointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditWaypointViewController.swift; sourceTree = "<group>"; };
+		B10A13091EAD545C009E99FA /* GPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
+		B10A130B1EAD58EF009E99FA /* MKGPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKGPX.swift; sourceTree = "<group>"; };
 		B179F6531EA9A70100DE4E7E /* Trax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B179F6561EA9A70200DE4E7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B179F6581EA9A70200DE4E7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B179F65B1EA9A70200DE4E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B179F65E1EA9A70200DE4E7E /* Trax.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trax.xcdatamodel; sourceTree = "<group>"; };
 		B179F6601EA9A70200DE4E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B179F6631EA9A70200DE4E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B179F6651EA9A70200DE4E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B179F66A1EA9A70200DE4E7E /* TraxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B179F66E1EA9A70200DE4E7E /* TraxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraxTests.swift; sourceTree = "<group>"; };
-		B179F6701EA9A70200DE4E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B179F67A1EA9A8BC00DE4E7E /* GPXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GPXViewController.swift; path = ../GPXViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				B179F6551EA9A70100DE4E7E /* Trax */,
-				B179F66D1EA9A70200DE4E7E /* TraxTests */,
 				B179F6541EA9A70100DE4E7E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,24 +81,26 @@
 		B179F6551EA9A70100DE4E7E /* Trax */ = {
 			isa = PBXGroup;
 			children = (
-				B179F6561EA9A70200DE4E7E /* AppDelegate.swift */,
-				B179F6581EA9A70200DE4E7E /* ViewController.swift */,
+				B179F67A1EA9A8BC00DE4E7E /* GPXViewController.swift */,
+				B10A130B1EAD58EF009E99FA /* MKGPX.swift */,
+				B10A13091EAD545C009E99FA /* GPX.swift */,
+				B10859981EBE1A28000C7A61 /* ImageViewController.swift */,
 				B179F65A1EA9A70200DE4E7E /* Main.storyboard */,
-				B179F6601EA9A70200DE4E7E /* Assets.xcassets */,
-				B179F6621EA9A70200DE4E7E /* LaunchScreen.storyboard */,
-				B179F6651EA9A70200DE4E7E /* Info.plist */,
-				B179F65D1EA9A70200DE4E7E /* Trax.xcdatamodeld */,
+				B108599A1EBE6823000C7A61 /* EditWaypointViewController.swift */,
+				B179F6791EA9A7E600DE4E7E /* Supporting Files */,
 			);
 			path = Trax;
 			sourceTree = "<group>";
 		};
-		B179F66D1EA9A70200DE4E7E /* TraxTests */ = {
+		B179F6791EA9A7E600DE4E7E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B179F66E1EA9A70200DE4E7E /* TraxTests.swift */,
-				B179F6701EA9A70200DE4E7E /* Info.plist */,
+				B179F6601EA9A70200DE4E7E /* Assets.xcassets */,
+				B179F6621EA9A70200DE4E7E /* LaunchScreen.storyboard */,
+				B179F6651EA9A70200DE4E7E /* Info.plist */,
+				B179F6561EA9A70200DE4E7E /* AppDelegate.swift */,
 			);
-			path = TraxTests;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,11 +154,13 @@
 					B179F6521EA9A70100DE4E7E = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = P3PSUS93CS;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					B179F6691EA9A70200DE4E7E = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = P3PSUS93CS;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B179F6521EA9A70100DE4E7E;
 					};
@@ -204,9 +210,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B179F6591EA9A70200DE4E7E /* ViewController.swift in Sources */,
-				B179F65F1EA9A70200DE4E7E /* Trax.xcdatamodeld in Sources */,
 				B179F6571EA9A70200DE4E7E /* AppDelegate.swift in Sources */,
+				B10A130C1EAD58EF009E99FA /* MKGPX.swift in Sources */,
+				B108599B1EBE6823000C7A61 /* EditWaypointViewController.swift in Sources */,
+				B10859991EBE1A28000C7A61 /* ImageViewController.swift in Sources */,
+				B179F67B1EA9A8BC00DE4E7E /* GPXViewController.swift in Sources */,
+				B10A130A1EAD545C009E99FA /* GPX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +223,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B179F66F1EA9A70200DE4E7E /* TraxTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +359,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cparrales.Trax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -364,6 +373,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cparrales.Trax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -416,6 +426,7 @@
 				B179F6751EA9A70200DE4E7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B179F6761EA9A70200DE4E7E /* Build configuration list for PBXNativeTarget "TraxTests" */ = {
 			isa = XCConfigurationList;
@@ -424,21 +435,9 @@
 				B179F6781EA9A70200DE4E7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		B179F65D1EA9A70200DE4E7E /* Trax.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B179F65E1EA9A70200DE4E7E /* Trax.xcdatamodel */,
-			);
-			currentVersion = B179F65E1EA9A70200DE4E7E /* Trax.xcdatamodel */;
-			path = Trax.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B179F64B1EA9A70100DE4E7E /* Project object */;
 }
